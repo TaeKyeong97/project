@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@media (min-width:100px){
+  main{width:100%; margin:0 auto; padding:0 0 0 0; float:none;}
+  header{min-width:615px;}
+  .pj-row1{margin-top:24px; float:left;}
+  .pj-row2{margin-left:8px;}
+  .admin-New-con{margin-top:23px; margin-left:0; float:left;}
+  .chat-wrap{top:0; right:0; position:absolute; display:none;}
+  .memo-wrap{margin-left:0;}
+
+  .search-con {width:22%; margin:13px 0 0 130px; border-bottom:1px solid #6081f7; float:left; display:none;}
+}
+
+@media (min-width:969px){
+  main{width:75%; min-width:813px; margin:0 auto; padding:0 0 0 20px;}
+  header{min-width:1009px;}
+  .pj-row1{margin-top:24px; float:left;}
+  .pj-row2{margin-left:8px;}
+  .admin-New-con{margin-top:23px; margin-left:0; float:left;}
+  .chat-wrap{top:-60px; position:relative;}
+  .memo-wrap{margin-left:0;}
+  .search-con { width:35%; margin:13px 0 0 130px; border-bottom:1px solid #6081f7; float:left;  display:block;}
+}
+
+@media (min-width:1443px){
+  main{width:75%; padding:0 0 0 20px; float:left;}
+  .pj-row1{margin-top:24px; float:left;}
+  .admin-New-con{margin-top:24px; margin-left:8px; float:left;}
+  .chat-wrap{top:0; right:0; position:absolute; display:none;}
+  .memo-wrap{margin-left:15px;}
+}
+@media (min-width:1760px){
+  main{width:75%; padding:0 0 0 20px; float:left;}
+  .pj-row1{margin-top:24px; float:left;}
+  .admin-New-con{margin-top:24px; margin-left:8px; float:left;}
+  .chat-wrap{top:-60px; position:relative; display:block;}
+}
+
+
+/*프로젝트 리스트 페이지*/
+.x-xMbody{width:100%; height:100%; position:absolute; top:0;}
+.x-xnav{width:321px; height:100%; float:left; background-color:#4c5061; z-index:1;}
+.x-xnav .x-xsubmu{width:248px; margin:45px auto; margin-top:97px;}
+.x-xnav .x-xsubmu a{margin:0 5px; padding:11px 20px; font-size:13px; color:#fff; border-radius:50px;}
+.x-xnav .x-xsubmu a:nth-child(1){background:#6081f7;}
+.x-xnav .x-xsubmu a:nth-child(2){background:#636981;}
+.x-xnav .x-xaside-cf{width:93%; height:97px; margin:0 auto; border-radius:5px; background-color:#64687b; overflow:hidden;}
+.x-xnav .x-xaside-cf img{width:100%;}
+.x-sv-con{color:#fff; font-size:17px;}
+.x-sv-con>ul{margin:45px 25px;}
+.x-sv-con>ul li{margin:12px 0;}
+.x-sv-con>ul li:nth-child(1){margin-bottom:15px;}
+.x-sv-con>ul li a{margin-left:11px; font-size:13px; color:#fff;}
+.x-xMbody .x-xMcon{margin-left:321px;}
+.x-x-PJList{width:100%; margin:0 auto; margin-top:220px; border:0;border-collapse:collapse; border-radius:8px 8px 0 0;}
+.x-x-PJList th{display:none;}
+.x-x-PJList tbody{width:100%;}
+.x-x-PJList tr{background:#53586c; border:1px solid #4e5366;}
+.x-x-PJList tr:nth-child(2n){background:#4d5264;}
+.x-x-PJList tr:hover{background:#494e5f;}
+.x-x-PJList .head{width:100%; background:#595e73; text-align:center;}
+.x-x-PJList .head:hover{background:#595e73;}
+.x-x-PJList td{width:14%; padding:14px 0; text-align:center; font-size:13px;}
+.x-x-PJList tr td:nth-child(2){width:10%;}
+.x-x-PJList tr td:nth-child(3){width:17%;padding:0 0 0 8px; text-align:left;}
+.exp-red{margin-left:5px; padding:5px 7px; background:#ed275f; color:#fff; font-size:12px;}
+.exp-blu{margin-left:5px; padding:5px 7px; background:#678ec0; color:#fff; font-size:12px;}
+.exp-help{font-size:12px; margin-left:5px; padding:0 6px; border:1px solid #d6dbe2; background:#53586c; border-radius:50px; position:relative;}
+.exp-help:hover .sub-desc{display:block;}
+.sub-desc{width:238px; padding:7px 10px; z-index:5; display:none; top:25px; right:-2px; text-align:left; position:absolute; background:rgba(43, 50, 60, 0.8392156862745098); color:#fff;}
+.t-tsub-wrap{background:#53586c; text-align:left !important;}
+.t-tsub-wrap:hover{background:#53586c;}
+.t-tsub-con{margin:0 12px; padding:20px 19px; overflow:hidden; border:1px solid #494e5f;}
+.t-tinfo-title{width:150px; float:left;}
+.t-tinfo-title span{font-size:10px; padding:1px 3px; border:1px solid #dfe2e4;}
+.t-tinfo-subtitle{color:#fff;}
+.t-tsub-row{margin:8px 0;}
+.t-tsub-col{width:50%; float:left;}
+
+/*그래프*/
+.x-xgraph-wrap{width:100%; height:53px;}
+.x-xgraph-wrap .t-tgraph-info li{width:142px; float:left; margin-left:5px; font-size:11px;}
+.x-xgraph-wrap .t-tgraph-info li span{width:43px; height:5px; margin:7px 7px 0 0; background:#d9dbe0; display:block; float:left;}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*common*/
+*{margin:0;padding:0;}
+html,body{width:100%;height:100%;}
+body{background:#53586c;}
+a{color:#fff; text-decoration:none;}
+
+/*content*/
+.chating-wrap{width:100%; height:100%; position:relative;}
+.chating-wrap .chat-head{padding:23px 30px 20px; top:0; position:relative; z-index:10; overflow:hidden; background:#4c5064; border-radius:15px 15px 0 0;}
+.chating-wrap .chat-head h2 a{font-size:16px; float:left;}
+.chating-wrap .chat-head a{float:right;}
+.chating-wrap .chat-body{width:100%; height:100%; top:0; background:#45495b; position:absolute;}
+
+
+.chat-body .chat-content{height:65%;margin-top:64px; overflow:auto;}
+.chat-body .chat-inp{width:97%; height:20%; margin:1.5% 1.5%; bottom:0; z-index:5; background:#51556a; position:fixed;}
+.chat-body .chat-inp .chat-value-Box{width:90%; height:100%; padding:0 5%; background:none; border:0; color:#fff;}
+.chat-subm-btn{padding:15px 20px; top:50%; right:2%; transform:translate(0,-50%); background:#464a5d; border:0; color:#fff; position:absolute;}
+
+.opp,.me{padding:10px 15px; display:block; overflow:hidden; position:relative;}
+.opp.content{float:left;}
+.me.content{float:right;}
+.opp.content,.me.content{padding:10px 15px; display:inline-block; background:#626984; color:#fff;}
+.opp .opp-info{float:left;}
+.opp .opp-info .opp-img{width:47px; height:47px; margin:0 15px; overflow:hidden; border-radius:30px; float:left; background:#565c73;}
+.opp-name{margin-top:53px; clear:left; text-align:center; color:#fff; font-size:12px;}
+.opp-date{color:#fff; font-size:12px; position:relative; left:15px; bottom:-20px;}

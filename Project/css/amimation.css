@@ -1,0 +1,217 @@
+/*첫번쨰글*/
+.anim1{font-size:35px; position:relative; color:#fff; animation:ani1 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:2s;}
+.anim2{font-size:35px; position:relative; color:#fff; animation:ani1 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:4s;}
+@keyframes ani1{
+  0%{font-size:0px; opacity:0;}
+  100%{font-size:35px; opacity:1;}
+}
+/*배경1*/
+.banner01{ position:relative; color:#fff; animation:ani2 59s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:6s;animation-fill-mode: forwards;}
+@keyframes ani2{
+  0%{margin:0; opacity:1;}
+  2.5%{margin-left:-132%; opacity:0;}
+  85%{margin-left:-132%; opacity:0;}
+  88%{margin:0; opacity:1; z-index:8;}
+  100%{margin:0; opacity:1; z-index:8;}
+}
+/*배경2*/
+.banner02{width:100%; height:100%; z-index:5; opacity:0; position: absolute;top: 0; display: block; animation:ani3 1.2s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:7s;animation-fill-mode: forwards;}
+@keyframes ani3{
+  0%{display:block; opacity:0;}
+  100%{ opacity:1; background:#2d90f5;}
+}
+.st0{fill:#000;animation:ani3-1 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:7s;animation-fill-mode: forwards;}
+.st1{fill:#000;animation:ani3-1 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:7s;animation-fill-mode: forwards;}
+@keyframes ani3-1{
+  0%{fill:#000;}
+  100%{fill:#fff;}
+}
+/*두번째 이미지*/
+.anim3{width:0; opacity:0; margin:120px auto; margin-left:500px; animation:ani4 8s cubic-bezier(0.76, 0, 0.17, 1.01); animation-delay:8s;animation-fill-mode: forwards;}
+@keyframes ani4{
+  0%{width:0; opacity:0; margin-left:500px;}
+  16%{width:400px; opacity:1; margin-left:500px;}
+  40%{width:400px; margin-left:100px; opacity:1;}
+  43%{width:400px; margin-left:100px; opacity:1;}
+  70%{width:400px; margin-left:-20px; opacity:0;}
+  100%{width:400px; margin-left:-20px; opacity:0;}
+}
+/*키보드,마우스,막대기*/
+.anim4{opacity:0; animation:ani5 1.2s cubic-bezier(0.76, 0, 0.17, 1.01); animation-delay:9s;animation-fill-mode: forwards;}
+@keyframes ani5{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+.anim5{opacity:0;animation:ani6 1.2s cubic-bezier(0.76, 0, 0.17, 1.01); animation-delay:9.6s;animation-fill-mode: forwards;}
+@keyframes ani6{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
+.anim6{opacity:1;animation:ani7 1.2s cubic-bezier(0.96, -0.47, 0, 1.01); animation-delay:9.6s;animation-fill-mode: forwards;}
+@keyframes ani7{
+  0%{opacity:1;}
+  100%{opacity:0;}
+}
+.anim-text1{margin-top:-466px; margin-left:100px; opacity:0; position:relative; font-size:20px; font-weight:100; color:#fff; animation:ani8 2.9s cubic-bezier(0.96, -0.47, 0, 1.01); animation-delay:9.6s;animation-fill-mode: forwards;}
+.anim-text1 h2{margin:6px; font-weight:100;}
+@keyframes ani8{
+  0%{opacity:0;margin-left:100px;}
+  50%{opacity:1;margin-left:553px;}
+  90%{opacity:1;margin-left:553px;}
+  100%{opacity:0;margin-left:900px;}
+}
+/*배경3*/
+.banner03{width:100%; height:100%; z-index:5; opacity:0; position: absolute;top: 0; display: block; animation:ban3 1.2s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:10s;animation-fill-mode: forwards;}
+@keyframes ban3{
+  0%{opacity:0;}
+
+  100%{opacity:1;}
+}
+
+/*프로젝트 이미지 체계적으로 계획하고 설계*/
+.anim7{width:0; top:137px; left:250px; opacity:0; position:absolute; animation:ban3-ani1 6s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:12.3s;animation-fill-mode: forwards;}
+@keyframes ban3-ani1{
+  0%{top:20%; left:25%; opacity:1; transform:translate(-50%,-40%) scale(0); width:0; opacity:0; position:absolute;}
+  20%{top:30%; left:25%; opacity:1; transform:translate(-50%,-40%) scale(1);width:500px; opacity:1; position:absolute;}
+  29%{top:30%; left:25%; opacity:1; transform:translate(-50%,-40%) scale(1);width:500px; opacity:1; position:absolute;}
+  43%{width:500px; top:50%; left:50%; opacity:1; transform:translate(-50%,-50%); position:absolute;}
+  48%{width:500px; top:50%; left:50%; opacity:1; transform:translate(-50%,-50%); position:absolute;}
+  60%{width:500px; top:50%; left:30%; opacity:1; transform:translate(-50%,-50%); position:absolute;}
+  90%{width:500px; top:50%; left:30%; opacity:1; transform:translate(-50%,-50%); position:absolute;}
+  100%{width:500px; top:50%; left:10%; opacity:0; transform:translate(-50%,-50%); position:absolute;}
+}
+.anim-text2 h2{margin:6px; font-weight:100;}
+.anim-text2{top:55%; left:62%; opacity:0; position:absolute;transform:translate(-50%,-50%); font-size:20px; font-weight:100; color:#fff; animation:ban3-ani2 3s cubic-bezier(0.96, -0.47, 0, 1.01); animation-delay:15.8s;animation-fill-mode: forwards;}
+@keyframes ban3-ani2{
+  0%{top:55%; left:62%; opacity:0; transform:translate(-50%,-50%);}
+  50%{top:47%; left:62%; opacity:1; transform:translate(-50%,-50%);}
+  70%{top:47%; left:62%; opacity:1; transform:translate(-50%,-50%);}
+  100%{top:47%; left:50%; opacity:0; transform:translate(-50%,-50%);}
+}
+
+
+/*배경4*/
+.banner04{width:100%; height:100%; z-index:5; opacity:0; position: absolute;top: 0; display: block; animation:ban4 1.2s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:15s;animation-fill-mode: forwards;}
+@keyframes ban4{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+/*파일 업로드 이미지anim*/
+.ban4-anim1{width:572px; height:0px; top:78%; left:50%; transform:translate(-50%,-50%); position:absolute; overflow:hidden; z-index:5; animation:ban4-anim1 4.9s  cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:18s;animation-fill-mode: forwards;}
+@keyframes ban4-anim1{
+  0%{height:0;}
+  20%{height:183px;}
+  40%{top:75%; height:373px;}
+  100%{top:75%; height:373px;}
+}
+.ban4-anim-text1{position:absolute; top:40%; left:50%; transform:translate(-50%,-50%);}
+.ban4-anim-text1 h2{font-size:40px; color:#fff; font-weight:100; opacity:0; animation:ban4-text1 4.2s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:19.2s;animation-fill-mode: forwards;}
+@keyframes ban4-text1{
+  0%{opacity:0;}
+  10%{opacity:1;}
+  82%{opacity:1;}
+  93%{opacity:0;}
+  100%{opacity:0;}
+}
+.ban4-anim2{opacity:1; animation:ban4-anim2 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:22s;animation-fill-mode: forwards;}
+@keyframes ban4-anim2{
+  0%{opacity:1;}
+  100%{opacity:0;}
+}
+.ban4-anim3{opacity:1; animation:ban4-anim3 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:23.5s;animation-fill-mode: forwards;}
+@keyframes ban4-anim3{
+  0%{opacity:1;}
+  100%{opacity:0;}
+}
+
+/*배경5 채팅*/
+.banner05{width:100%; height:100%; position:absolute; top:0;left:0; z-index:6;}
+.ban5-anim1{width:800px; position:absolute; transform:perspective(500px) rotateY(53deg) rotateX(0deg); opacity:0; backface-visibility:visible; animation:ban5-anim1 10s  cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:24.5s; animation-fill-mode:forwards;}
+@keyframes ban5-anim1{
+  0%{transform:perspective(500px) rotateY(53deg) rotateX(0deg); left:0; opacity:0}
+  5%{transform:perspective(500px) rotateY(-16deg) rotateX(0deg) translate(-50%,0); left:50%; top:0%; opacity:1;}
+  8%{transform:perspective(500px) rotateY(-16deg) rotateX(0deg) translate(-50%,0) scale(2); left:50%; top:0%; opacity:1;}
+  11%{transform:perspective(500px) rotateY(-16deg) rotateX(0deg) translate(-50%,0) scale(2); left:50%; top:20%; opacity:1;}
+  25.5%{transform:perspective(500px) rotateY(-16deg) rotateX(0deg) translate(-50%,0) scale(2); left:50%; top:20%; opacity:1;}
+  29%{transform:perspective(500px) rotateY(-16deg) rotateX(0deg) translate(-50%,0) scale(2); left:50%; top:-95%; opacity:1;}
+  35%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(2); left:50%; top:-95%; opacity:1;}
+  /*유지*/
+  65%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(2); left:50%; top:-95%; opacity:1;}
+  67%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(1); left:50%; top:0%; opacity:1;}
+  75%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(1); left:50%; top:0%; opacity:1;}
+
+  82%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(1); left:50%; top:50%; opacity:1;}
+  99.99%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(1); left:50%; top:50%; opacity:1;}
+  100%{transform:perspective(500px) rotateY(0deg) rotateX(0deg) translate(-50%,0) scale(1); left:50%; top:50%; opacity:0;}
+}
+.ban5-text1{animation:ban5-text1 9s cubic-bezier(0.38, 1.04, 1, 1.04); z-index: 8;
+  backface-visibility: visible; transform-origin: 57% 79%; position: absolute; width: 557px; transform: perspective(584px) rotateY(-15deg) rotateX(1deg) translate(-50%,-30%) scale(2); left: 52%;top:45%;animation-delay:26s; animation-fill-mode:forwards; }
+@keyframes ban5-text1{
+  0%{top:45%;  transform: perspective(584px) rotateY(-15deg) rotateX(1deg) translate(-50%,-30%) scale(2);}
+  11.8%{top:45%;  transform: perspective(584px) rotateY(-15deg) rotateX(1deg) translate(-50%,-30%) scale(2);}
+  15%{top:-50%;  transform: perspective(584px) rotateY(-15deg) rotateX(1deg) translate(-50%,-30%) scale(2);}
+  55.5%{top:-25%;  transform: perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,-30%) scale(2);}
+  56%{top:-25%; transform: perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,-0%) scale(1.5);}
+  60%{opacity:1;top:10%; left:50%; transform: perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,-0%) scale(1);}
+  68%{opacity:1;top:10%; left:50%; transform: perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,-0%) scale(1);}
+  71.5%{opacity:1;top:60%; left:48%; transform:perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,0%) scale(1.2);}
+  94%{opacity:1;top:60%; left:48%; transform:perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,0%) scale(1.2);}
+  97%{opacity:0; top:60%; left:48%; transform:perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,0%) scale(1.2);}
+  100%{opacity:0; top:60%; left:48%; transform:perspective(584px) rotateY(0deg) rotateX(0deg) translate(-50%,0%) scale(1.2);}
+}
+
+.ban5-anim4{opacity:0; animation:ban5-anim4 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:26s;animation-fill-mode: forwards;}
+@keyframes ban5-anim4{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+.ban5-anim2{opacity:0; animation:ban5-anim2 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:26.5s;animation-fill-mode: forwards;}
+@keyframes ban5-anim2{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+.ban5-anim3{opacity:0; animation:ban5-anim3 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:29s;animation-fill-mode: forwards;}
+@keyframes ban5-anim3{
+  0%{opacity:0;}
+  20%{opacity:1;}
+  100%{opacity:1;}
+}
+
+.ban5-text2{width:0; font-size:35px; top:34%; left:23%; position:absolute; transform:translate(-50%,-50%); overflow:hidden; animation:ban5-text2 1s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:28.5s;animation-fill-mode: forwards; z-index:8;}
+.ban5-text2 h2{width:264px;}
+@keyframes ban5-text2{
+  0%{width:0;}
+  50%{width:265px; opacity:1;}
+  73%{width:265px; opacity:1;}
+  73.9%{opacity:0;}
+  100%{opacity:0;}
+}
+
+.ban5-text3{opacity:0; position:absolute; z-index:9; top:30%; left:50%; transform:translate(-50%,-25%); animation:ban5-text3 5s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:32s;animation-fill-mode: forwards; color:#fff; font-size:30px;}
+.ban5-text3 h2{font-weight:100;}
+@keyframes ban5-text3{
+  0%{opacity:0;}
+  20%{opacity:1;}
+  52%{opacity:1;}
+  60%{opacity:0}
+  100%{opacity:0;}
+}
+
+.x-xbg-con{width:100%; bottom:-5px; opacity:0; position:absolute; z-index:5; animation:x-xbg-con 3s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:37s;animation-fill-mode:forwards;}
+@keyframes x-xbg-con{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+.sut-title-text1{width:100%; height:100%; position:absolute; top:0; left:0; }
+.sub-title-anim0{position:absolute; z-index:9; transform:translate(-50%,-50%); left:50%; top:50%; font-size:37px; color:#fff; font-weight:100; opacity:0; animation:sub-title-anim0 3s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:40s; animation-fill-mode:forwards; display:block;}
+@keyframes sub-title-anim0{
+  0%{opacity:0;}
+  30%{opacity:1;}
+  75%{opacity:1;}
+  100%{opacity:0;}
+}
+.sub-title-anim1{position:absolute; z-index:9; transform:translate(-50%,-50%); left:50%; top:50%; font-size:37px; color:#fff; font-weight:100; opacity:0; animation:sub-title-anim0 3s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:43s; animation-fill-mode:forwards; display:block;}
+.sub-title-anim2{position:absolute; z-index:9; transform:translate(-50%,-50%); left:50%; top:50%; font-size:37px; color:#fff; font-weight:100; opacity:0; animation:sub-title-anim0 3s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:46s; animation-fill-mode:forwards; display:block;}
+.sub-title-anim3{position:absolute; z-index:9; transform:translate(-50%,-50%); left:50%; top:50%; font-size:37px; color:#fff; font-weight:100; opacity:0; animation:sub-title-anim0 3s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:49s; animation-fill-mode:forwards; display:block;}
+.sub-title-anim4{position:absolute; z-index:9; transform:translate(-50%,-50%); left:50%; top:50%; font-size:37px; color:#fff; font-weight:100; opacity:0; animation:sub-title-anim0 3s cubic-bezier(0.38, 1.04, 1, 1.04); animation-delay:52s; animation-fill-mode:forwards; display:block;}

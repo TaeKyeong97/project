@@ -1,0 +1,56 @@
+@charset "utf-8";
+#join-wrap{width:651px; margin:0 auto;}
+.left{float:left;}
+*{margin:0; padding:0;}
+
+.join-header{margin-top:35px;}
+.join-header .logo>a{width:242px; height:87px; margin:0 auto; background:url('../img/common_lgo.png') no-repeat; background-position:-196px -19px; display:block;}
+
+.join-content{width:593px; overflow:hidden; margin-top:43px; padding:39px 30px; border-radius:10px 10px 0 0; background-color:#f8f8f8;}
+.join-content .chk-top{height:47px; padding:0 0; border-bottom:1px solid #eaeaea;}
+.join-content .chk-top>label,input{float:right;}
+.checkbox{display:none;}
+/*모두 동의*/
+:root .consent-con .chk-top label:before{width:32px; height:32px; margin-left:7px; content:''; background:url('../img/common_lgo.png') no-repeat; background-position:-248px -443px; display:block; float:right;}
+:root .consent-con .chk-top input:checked+label:before{width:32px; height:32px; margin-left:7px; content:''; background:url('../img/common_lgo.png') no-repeat; background-position:-248px -408px; display:block; float:right;}
+   /*이용 약관 동의*/
+:root .consent-con dl .chk-01 label:before{width:32px; height:32px; margin-left:7px; content:''; background:url('../img/common_lgo.png') no-repeat; background-position:-248px -443px; display:block; float:right;}
+:root .consent-con dl .chk-01 input:checked+label:before{width:32px; height:32px; margin-left:7px; content:''; background:url('../img/common_lgo.png') no-repeat; background-position:-248px -408px; display:block; float:right;}
+/*개인정보 수집 및 이용 안내*/
+:root .consent-con dl:nth-child(3)>dd{height:98px;}
+:root .consent-con dl .chk-02 label:before{width:32px; height:32px; margin-left:7px; content:''; background:url('../img/common_lgo.png') no-repeat; background-position:-248px -443px; display:block; float:right;}
+:root .consent-con dl .chk-02 input:checked+label:before{width:32px; height:32px; margin-left:7px; content:''; background:url('../img/common_lgo.png') no-repeat; background-position:-248px -408px; display:block; float:right;}
+.chk_info{line-height:31px; font-weight:bold;}
+.join-info{width:560px; height:160px; padding:16px; background-color:#f8f8f8; overflow-y:scroll;}
+.chk{width:523px; margin:23px auto; margin-bottom:10px;}
+.submit{width:100%; padding:22px; border:0; border-radius:0 0 10px 10px; background:rgb(96, 126, 247); color:#fff; font-size:17px; font-weight:bold;}
+
+.consent-con input{width:93%; padding:19px; border:1px solid #eeeff3;}
+.consent-con>div{width:100%;}
+.join-input-con{margin:9px 0; position:relative;}
+.join-input-con>button{padding:20px 14px 20px; top:0; right:0; position:absolute; border:0; background:rgb(96, 126, 247); color:#fff;}
+.join-input-con>button:focus{background:rgb(92, 121, 239);}
+.join-input-con>button:hover{background:rgb(92, 121, 239);}
+.join-input-con>button:active{background:rgb(76, 107, 230);}
+.join-input-con.join-temple{display:grid; grid-template-columns:auto auto auto; grid-gap:17px;}
+.join-input-con.join-temple>input{width:78%;}
+.join-input-con input[type="file"]{overflow:hidden; position:absolute;}
+.join-check{font-size:15px; color:#f00;}
+
+
+.footer{margin-top:20px; padding:20px 0 15px 0; text-align:center; font-size:11px; font-weight:bold; color:#6b6d70;}
+.footer a:hover{color:#6b6d70;}
+
+/* join 회원가입 */
+.lj-logo{margin-top:80px; text-align:center;}
+.join-wrap{background:#fff; padding:0 0 15px 0;}
+.lj-title-con{border-radius:7px 7px 0 0;text-align:center; background: rgb(89,130,255); /* Old browsers */ background: -moz-linear-gradient(left, rgb(89,130,255) 1%, rgb(167,18,255) 100%);background: -webkit-linear-gradient(left, rgb(89,130,255) 1%,rgb(167,18,255) 100%);}
+.lj-title-con>.lj-title{margin-top:30px; padding:17px 0; font-size:18px; color:#fff;}
+.join-inp-con{padding:0 18px;position:relative;}
+.join-inp-con>input{margin:7px 0 !important; padding:20px 20px; border:0; background-color:#f3f4fb;}
+.join-inp-con:first-child>input{margin-top:30px;}
+.join-inp-con>input.j-inp-sty{ float:left;}
+.join-inp-con>input.j-inp-btn{max-width:86px; margin:0; padding:19px 20px; top:0; right:18px; float:right; background:#9ea6c0; color:#fff; border:0; position:absolute; }
+.join-submit-con>input{max-width:172px; margin:0 auto; padding:18px 15px; border-radius:30px; color:#000; border:0; background:#f3f4fb;}
+.join-submit-con>input:hover{background:#9ea6c0; color:#fff;}
+

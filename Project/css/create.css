@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@media (max-width: 1613px){
+  /*초기화*/
+  .x-pwrap{min-width:800px;}
+}
+
+.con2{display:none;}
+.con3{display:none;}
+.con4{display:none;}
+.con5{display:none;}
+.con6{display:none;}
+
+.x-xcreate-wrap{width:771px; min-height:437px; margin:70px auto; background-color:#fff; border:1px solid rgba(45, 66, 105, 0.14); border-radius:9px; overflow:hidden; position:relative;}
+.x-xcreate-wrap .x-xhead{padding:17px 0 16px 0; font-size:17px; font-weight:bold; text-align:center; background-color:#e5e8ee;}
+.x-xcreate-wrap .x-xhead .x-xside{margin-top:5px; right:31px; position:absolute;}
+.x-xcreate-wrap .x-xhead .x-xside span{width:12px; height:12px; margin:0 4px; background:#fff; border-radius:50%; float:left;}
+.x-xcreate-wrap .x-xhead .x-xside span:nth-child(1){background-color:#1de521;}
+.x-xcreate-wrap .x-xhead .x-xside span:nth-child(2){background-color:#ea1a4b;}
+.x-xcreate-wrap .x-xbody .x-xcon{margin-top:21px; overflow:hidden;}
+.x-xcreate-wrap .x-xbody input[type="text"]{width:75%; margin:25px auto; padding:22px; border:0; border-radius:8px; background:#f1f3f5; display:block;}
+.x-xcreate-wrap .x-xbody input[type="password"]{width:75%; margin:25px auto; padding:22px; border:0; border-radius:8px; background:#f1f3f5; display:block;}
+.x-xcreate-wrap .x-xbody input[type="button"]{width:233px; padding:20px; font-size:15px; font-weight:bold; border:0; border-radius:8px; background:#f1f3f5; bottom:15px; position:absolute; left:50%; transform:translate(-50%, 0);}
+.x-xcreate-wrap .x-xbody input[type="button"]:hover{background:#e9edf1;}
+.x-xcreate-wrap .x-xbody input[type="submit"]{width:233px; padding:20px; font-size:15px; font-weight:bold; border:0; border-radius:8px; background:#f1f3f5; bottom:15px; position:absolute; left:50%; transform:translate(-50%, 0);}
+.x-xcreate-wrap .x-xbody .x-xcon .x-xpeo{width:82%; margin:10px auto; font-weight:bold;}
+.x-xcreate-wrap .x-xbody .x-xcon .x-xpeo-xwrap{width:664px; margin:9px auto; overflow:hidden;}
+.x-xcreate-wrap .x-xbody .x-xcon .x-xpeo-xwrap .x-xpeople-con{width:427px; height:224px; border-radius:15px; background:#f1f3f5; float:left;}
+.x-xcreate-wrap .x-xbody .x-xcon .x-xpeo-xwrap .x-xupeople-con{width:227px; height:224px; margin-left:10px; border-radius:15px; background:#f1f3f5; float:left; overflow-x:auto;}
+
+.x-xuser-con{height:38px; margin:1px 2px; padding-left:16px; background:#ebecf0; border-radius:21px; display:inline-block;}
+.x-xuser-con span{line-height:36px; font-size:14px;}
+.x-xuser-con span:nth-child(2){width:35px; height:37px; margin-left:10px; float:right; background:url('../img/x-comm.png') no-repeat; background-position:0 3px;}
+.x-next{width:495px; margin:10px auto;}
+.x-next>input{transition:none; transform:none !important; left:inherit !important; position:static !important;}
+.x-next>input{margin:0 7px;}
+.x-xka-pay{width:344px; height:174px; margin:0 auto; text-align:center; border-radius:8px; border:1px solid #515669; background-color:#ffdf00;}
+.x-xka-pay .ka-logo{width:58px; height:28px; margin:9px 0 0 15px; background:url('../img/x-comm.png') no-repeat; background-position:-41px 0;}
+
+
+/*그룹 프로젝트 생성*/
+.x-xg-pbg{width:100%; height:100%; background:rgba(13, 15, 20, 0.33); top:0; position:absolute;}
+.x-xg-pcon{width:907px; height:498px; overflow:hidden; background-color:#fff; position:absolute; transform:translate(-50%,-50%); top:50%; left:50%; z-index:10; border-radius:8px;}
+.x-xg-pcon .x-xg-h{width:80%; margin:0 auto; padding:20px 0 12px 0; border-bottom:1px solid #e9ebf0; font-size:20px; font-weight:bold; text-align:center;}
+.x-xg-ck>ul{width:509px; height:120px; margin:57px auto; margin-bottom:28px; overflow:hidden;}
+.x-xg-ck>ul li input{display:none;}
+.x-xg-ck>ul li.x-xg-pck{width:85px; height:85px; margin:0 21px; text-align:center; float:left; background-color:#f8f8f9; border-radius:5px;}
+.x-xg-ck>ul li.x-xg-pck label:nth-child(3){width:66px; height:71px; margin:11px auto; z-index:10; color:transparent; position:relative; background:url('../img/x-comm.png') no-repeat; background-position:8px -43px; display:block;}
+.x-xg-ck>ul li.x-xg-pck:nth-child(2) label:nth-child(3){width:66px; height:66px; background:url('../img/x-comm.png') no-repeat; background-position:-67px -43px; display:block;}
+.x-xg-ck>ul li.x-xg-pck:nth-child(3) label:nth-child(3){width:66px; height:66px; background:url('../img/x-comm.png') no-repeat; background-position:-67px -43px; display:block;}
+.x-xg-ck>ul li.x-xg-pck:nth-child(4) label:nth-child(3){width:66px; height:66px; background:url('../img/x-comm.png') no-repeat; background-position:-136px -43px; display:block;}
+.x-xg-ck>ul li.x-xg-pck span{width:85px; height:85px; border-radius:5px; display:block; position:absolute;}
+.x-xg-ck>ul li.x-xg-pck input:checked+span{border:1px solid #324165;}
+.x-xg-inp>input{width:50%; margin:7px auto; padding:18px 15px; border:1px solid #d2d4da; border-radius:5px; display:block;}
+.x-xg-b>.submit{width:50%; padding:19px 0; border:0; border-radius:8px; background:#324165; color:#fff; font-size:19px; transform:translate(-50%,0); position:absolute; left:50%; bottom:14px; display:block;}
+.x-xg-b>.x-xg-inp .x-xpeo{width:89%; margin:10px auto;}
+.x-xg-b>.x-xg-inp .x-xpeo-xwrap{width:823px; margin:0 auto; overflow:hidden;}
+.x-xg-b>.x-xg-inp .x-xpeo-xwrap #sortable2{width:634px; height:300px; margin:0 6px; background:#f8f8f9; float:left; border-radius:8px;}
+.x-xg-b>.x-xg-inp .x-xpeo-xwrap #sortable1{width:129px; height:300px; margin:0 6px; padding:0 15px; background:#f8f8f9; float:left; border-radius:8px;}
+
+
+.colo:checked+label::before{width:66px; height:66px; content:''; background:url('../img/x-comm.png') no-repeat; display:block; background-position:0 -129px;}
+
+
+/*달력*/
+.xdate-picker{margin:10px auto;width:340px;height:auto;max-height:50px;background:#fff;position:relative;overflow:hidden;transition:all .3s 0 ease-in-out;border-radius:8px}
+.xdate-picker .input{width:100%;height:50px;font-size:0;cursor:pointer}
+.xdate-picker .input .result,.xdate-picker .input button{display:inline-block;vertical-align:top}
+.xdate-picker .input .result{width:calc(100% - 50px);height:50px;line-height:50px;font-size:16px;padding:0 10px;color:grey;box-sizing:border-box; background:#eff1f4;}
+.xdate-picker .input a{background-color:#6081f7;color:#fff;line-height:50px;border:0;font-size:18px;padding: 5px 14px 0px 14px;float: right;display: block;width: 22px;height: 46px;}
+.xdate-picker .input a:hover{background-color:#5375ec}
+.xdate-picker .input a:focus{outline:0}
+.xdate-picker .calendar{position:relative;width:100%;background:#fff;border-radius:0;overflow:hidden}
+.xdate-picker .ui-datepicker-inline{position:relative;width:100%}
+.xdate-picker .ui-datepicker-header{height:100%;line-height:50px;background:#6081f7;color:#fff;margin-bottom:10px}
+.xdate-picker .ui-datepicker-prev,.xdate-picker .ui-datepicker-next{width:20px;height:20px;text-indent:9999px;border:2px solid #fff;border-radius:100%;cursor:pointer;overflow:hidden;margin-top:12px}
+.xdate-picker .ui-datepicker-prev{float:left;margin-left:12px}
+.xdate-picker .ui-datepicker-prev:after{-webkit-transform:rotate(45deg);transform:rotate(45deg);margin:-43px 0 0 8px}
+.xdate-picker .ui-datepicker-next{float:right;margin-right:12px}
+.xdate-picker .ui-datepicker-next:after{-webkit-transform:rotate(-135deg);transform:rotate(-135deg);margin:-43px 0 0 6px}
+.xdate-picker .ui-datepicker-prev:after,.xdate-picker .ui-datepicker-next:after{content:"";position:absolute;display:block;width:4px;height:4px;border-left:2px solid #fff;border-bottom:2px solid #fff}
+.xdate-picker .ui-datepicker-prev:hover,.xdate-picker .ui-datepicker-next:hover,.xdate-picker .ui-datepicker-prev:hover:after,.xdate-picker .ui-datepicker-next:hover:after{border-color:#68768A}
+.xdate-picker .ui-datepicker-title{text-align:center}
+.xdate-picker .ui-datepicker-calendar{width:100%;text-align:center}
+.xdate-picker .ui-datepicker-calendar thead tr th span{display:block;width:100%;color:#8392A7;margin-bottom:5px;font-size:13px}
+.xdate-picker .ui-state-default{display:block;text-decoration:none;color:#b5b5b5;line-height:40px;font-size:12px}
+.xdate-picker .ui-state-default:hover{background:rgba(0,0,0,0.02)}
+.xdate-picker .ui-state-highlight{color:#68768A}
+.xdate-picker .ui-state-active{color:#6081f7;background-color:rgba(131,146,167,0.12);font-weight:600}
+.xdate-picker .ui-datepicker-unselectable .ui-state-default{color:#eee;border:2px solid transparent}
+.xdate-picker.open{max-height:400px}
+.xdate-picker.open .input a{background:#5375ec}

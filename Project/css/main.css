@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/*RESET*/
+a{text-decoration:none; font-size:13px; color:#000;}
+ul{list-style:none;}
+section>h1{display:none;}
+/*common*/
+.acc{display:none;}
+.disNO{display:none;}
+.right{float:right;}
+/*HEADER*/
+#header{width:100%; min-width:964px; height:168px; background-color:#1c69f5; position:absolute; top:0;}
+#header .header_con{width:100%; height:168px; margin:0 auto; overflow:hidden;}
+#header .header_con#hcon_anima2{-webkit-animation:background-color .2s linear,border-color .2s linear}
+#header .header_con .header_wrap{width:61%; overflow:hidden; float:left; z-index:10; position:relative;}
+#header .header_con .header_wrap .logo_con{padding-top:32px; float:left;}
+#header .header_con .header_wrap .logo_con{margin:0 51px 0 55px;}
+#header .header_con .header_wrap .logo_con a span{width:152px; height:37px; display:block; background:url('../images/common/OPSLOGO.svg'); color:transparent;}
+@keyframes background-color {
+  0%{width:80%;}
+  100%{width:100%;}
+}
+
+#header2{width:100%; min-width:964px; height:136px; background-color:#1c69f5; position:fixed; top:-100px; z-index:100;}
+#header2 .header_con{width:100%; height:148px; margin:0 auto; overflow:hidden;}
+#header2 .header_con#hcon_anima2{-webkit-animation:background-color .2s linear,border-color .2s linear}
+#header2 .header_con .header_wrap{width:61%; overflow:hidden; float:left; z-index:10; position:absolute; top:0;}
+#header2 .header_con .header_wrap .logo_con{padding-top:32px; float:left;}
+#header2 .header_con .header_wrap .logo_con{margin:0 51px 0 55px;}
+#header2 .header_con .header_wrap .logo_con a span{width:152px; height:37px; display:block; background:url('../images/common/OPSLOGO.svg'); color:transparent;}
+#header2 .nav_wrap2 .m_plus{display:none;}
+#header3{width:100%; min-width:964px; height:136px; background-color:#1c69f5; position:fixed; top:-100px; animation:header3 .4s linear; z-index:100; -webkit-animation-fill-mode:both;}
+#header3 .header_con{width:100%; height:148px; margin:0 auto; overflow:hidden;}
+#header3 .header_con#hcon_anima2{-webkit-animation:background-color .2s linear,border-color .2s linear}
+#header3 .header_con .header_wrap{width:61%; overflow:hidden; float:left; z-index:10; position:absolute; top:0;}
+#header3 .header_con .header_wrap .logo_con{padding-top:32px; float:left;}
+#header3 .header_con .header_wrap .logo_con{margin:0 51px 0 55px;}
+#header3 .nav_wrap2 .m_plus{display:none;}
+#header3 .header_con .header_wrap .logo_con a span{width:152px; height:37px; display:block; background:url('../images/common/OPSLOGO.svg'); color:transparent;}
+#header4{width:100%; min-width:964px; height:136px; background-color:#1c69f5; position:fixed; top:0; animation:header4 .3s linear; z-index:100; -webkit-animation-fill-mode:both;}
+#header4 .header_con{width:100%; height:148px; margin:0 auto; overflow:hidden;}
+#header4 .header_con#hcon_anima2{-webkit-animation:background-color .2s linear,border-color .2s linear}
+#header4 .header_con .header_wrap{width:61%; overflow:hidden; float:left; z-index:10; position:absolute; top:0;}
+#header4 .header_con .header_wrap .logo_con{padding-top:32px; float:left;}
+#header4 .header_con .header_wrap .logo_con{margin:0 51px 0 55px;}
+#header4 .header_con .header_wrap .logo_con a span{width:152px; height:37px; display:block; background:url('../images/common/OPSLOGO.svg'); color:transparent;}
+#header4 .nav_wrap2 .m_plus{display:none;}
+@keyframes header3{
+  0%{top:-100px;}
+  100%{top:0px;}
+}
+@keyframes header4{
+  0%{top:0;}
+  100%{top:-100px;}
+}
+@keyframes background-color {
+  0%{width:80%;}
+  100%{width:100%;}
+}
+
+.sech_wrap{margin-top:32px; padding:0 0 8px 0 }
+.sech_wrap{width:50%; max-width:523px; float:left; position:relative;}
+.sech_wrap .sech_con{width:97%; height:42px; padding:0 0 0 15px; border-radius:21px; background-color:#fff; border:0;}
+.sech_wrap .sech_con:focus{box-shadow:0 7px 5px -2px rgba(0, 0, 0, 0.23137254901960785); outline:none;}
+.sech_wrap .sech_butt{width:30px; height:30px; margin-top:3px; margin-right:10px; top:0; right:0; border:0; background:url('../images/common/OPSLOGO.svg'); background-position:0 -39px;  position:absolute; color:transparent;}
+
+#gnb{width:35%; padding:37px 0 0 0; float:right; position:relative; z-index:5;}
+#gnb a{color:#fff;}
+#gnb .pp_wr{margin:0 15px 0 0; padding:10px 15px;border:1px solid #fff; float:left;}
+#gnb .login_wrap{margin-top:8px; float:left;}
+#gnb .login_wrap .join,#gnb .login_wrap .login{padding:9px 13px;}
+#gnb .login_wrap .join{padding:9px 13px; border:1px solid #fff; border-radius:20px;}
+
+.nav_wrap{width:100%; height:auto; margin:-86px auto; padding:33px 0; overflow:hidden; z-index:10; position:relative;}
+.nav_wrap ul,.m_plus_con{width:70%; max-width:1202px; background:#fff;}
+.nav_wrap ul{margin:0 auto; overflow:hidden; display:grid; grid-template-columns: auto auto;}
+.nav_wrap>ul{border:1px solid #1c69f5; border-bottom:0;}
+.nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(5),.nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(6){display:none;}
+.nav_wrap ul li{padding:8px 0 7px 0; float:left; text-align:center; border-color:#e7e8ec;}
+.nav_wrap ul li>h4{padding:6px 0 15px 0; border-bottom:1px solid #f0f0f6; }
+.nav_wrap ul li>h4>a{font-weight:600;}
+/*스크롤시 메뉴*/
+.nav_wrap2{width:100%; height:auto; margin:-86px auto; padding:33px 0; overflow:hidden; z-index:10; position:relative;}
+.nav_wrap2 ul{width:100%; background:#fff; animation:nav_wrap2 .3s;}
+@keyframes nav_wrap2{
+  0%{width:70%;}
+  100%{width:100%}
+
+}
+.nav_wrap2 ul{margin:0 auto; overflow:hidden; display:block; grid-template-columns: auto auto;}
+.nav_wrap2>ul{border:1px solid #1c69f5; border-bottom:0;}
+.nav_wrap2 ul li{margin:0 10px; padding:8px 0 7px 0; float:left; text-align:center; border-color:#e7e8ec;}
+.nav_wrap2 ul li .sub_menu{display:none;}
+.nav_wrap2 ul li>h4{padding:6px 0 7px 0; border-bottom:1px solid #fff; }
+.nav_wrap2 ul li>h4>a{font-weight:600;}
+
+.m_plus{width:100%;}
+.nav_wrap>.m_plus>.m_plus_con{border:1px solid #1c69f5; border-top:0;}
+.m_plus .m_plus_con{margin:0 auto; padding-bottom:5px; text-align:center;}
+.m_plus .m_plus_con>a{padding:7px 13px; border:1px solid #e7e8ec; border-radius:20px; display:inline-block;}
+.sub_menu{width:100% !important;}
+.sub_menu>li:hover{background:rgba(240, 240, 246, 0.34);}
+.sub_menu>li:active{background:rgba(240, 240, 246, 0.58);}
+.sub_menu li:nth-child(1n){border-width:0 1px 1px 0; border-style:solid;}
+.sub_menu li:nth-child(2n){border-width:0 1px 1px 0; border-style:solid; }
+.sub_menu li>a{margin-left:10px; display:block;}
+.i_con{width:41px; height:30px; display:block; float:left; background:url('../images/common/OPSLOGO.svg');}
+.i_con.i_con_PublWrit{background-position:5px -72px;}
+.i_con.i_con_Rec{background-position:-35px -70px;}
+.i_con.i_con_VolOffi{background-position:-73px -71px;}
+.i_con.i_con_userInf{background-position:-107px -71px;}
+.i_con.i_conE{background-position:-141px -69px;}
+.i_con.i_conF{background-position:-171px -69px;}
+.i_con.i_conG{background-position:-530px -69px;}
+.i_con.i_conH{background-position:-204px -69px;}
+.cqu_icon{width:160px; height:148px; display:block; background:url('../images/main/cqu_icon.svg'); z-index:0; position:absolute; top:20px; right:5%;}
+.sub_menu .text{margin-left:5px; line-height:32px; float:left;}
+.nav_wrap li:last-child li:nth-child(2n){border-width:0 0 1px 0; border-style:solid;}
+.main_content{margin-top:180px;}
+/*EMP animation*/
+.bg_yellow{background:rgba(255, 235, 59, 0); -webkit-animation:bg_yellow .9s linear,border-color .1s linear; }
+@keyframes bg_yellow {
+  0%{background:rgba(255, 235, 59, 0.2196078431372549);}
+  100%{background:rgba(249, 255, 59, 0);}
+}
+/* AD */
+.ad .ad_row{width:70%; max-width:1202px; margin:0 auto; display:grid; grid-template-columns:40% 59%; grid-column-gap:1%;}
+.ad .ad_row .ad_con{width:100%; height:110px; margin:0 2px; float:left; background:#dcdee5;}
+/*포트폴리오 리스트*/
+.wrap_list{width:70%; max-width:1202px; margin:0 auto; margin-top:70px; overflow:hidden;}
+.wrap_list .list_title{margin-bottom:25px; font-size:17px; font-weight:600;}
+.list_Portf{width:2570px; overflow:hidden;}
+.list_Portf .wrap_Portf{width:386px; height:223px; margin:0 1px; padding:15px 20px; background:#dcdee5; display:block; overflow:hidden;}
+.wrap_Portf{position:relative; float:left;}
+.wrap_Portf:hover .Portf_title{height:80px; -webkit-animation:Portf_title .1s linear,border-color .1s linear;}
+.wrap_Portf:hover .img_Port_bg>.bg{width:100%; height:100%; position:absolute; background:rgba(23, 43, 119, 0.54); -webkit-animation:img_Port_bg .1s linear,border-color .1s linear;}
+@keyframes Portf_title {
+  0%{height:48px}
+  100%{height:80px}
+}
+@keyframes img_Port_bg {
+  0%{background:rgba(23, 43, 119, 0.14);}
+  100%{background:rgba(23, 43, 119, 0.54);}
+}
+.wrap_Portf a{color:#fff;}
+.wrap_Portf .wrap_Port_info{width:100%; height:30px;}
+.wrap_Portf .wrap_Port_info .name{float:left;}
+.wrap_Portf .wrap_Port_info .like{float:right;}
+.wrap_Portf .wrap_Port_info,.wrap_Portf .Portf_title,.wrap_Portf .Port_cate{z-index:3; position:relative;}
+.wrap_Portf .Portf_title{height:48px; bottom:14px; position:absolute;}
+.wrap_Portf .Portf_title .title{margin-bottom:5px; font-size:17px; display:block;}
+.wrap_Portf .Port_cate{bottom:14px; right:20px; position:absolute;}
+.wrap_Portf .Port_cate a{color:#fff000;}
+.wrap_Portf .img_Port_bg{width:100%; top:0; left:0; position:absolute; z-index:0;}
+.wrap_Portf .img_Port_bg>.bg{width:100%; height:100%; position:absolute; background:rgba(20, 36, 97, 0.16);}
+
+#header>.header_con .cqu_icon{width:160px; height:148px !important; display:block; background:url('../images/main/cqu_icon.svg'); z-index:0; position:absolute; top:20px; right:3%;}
+#header2>.header_con .cqu_icon{width:160px; height:120px !important; display:block; background:url('../images/main/cqu_icon.svg'); z-index:0; position:absolute; top:20px; right:3%;}
+#header3>.header_con .cqu_icon{width:160px; height:120px !important; display:block; background:url('../images/main/cqu_icon.svg'); z-index:0; position:absolute; top:20px; right:3%;}
+#header4>.header_con .cqu_icon{width:160px; height:120px !important; display:block; background:url('../images/main/cqu_icon.svg'); z-index:0; position:absolute; top:20px; right:3%;}
+
+@keyframes background-color2 {
+  0%{width:100%;}
+  100%{width:80%;}
+}
+@media (min-width: 1124px){
+  #header .header_con{width:80%; height:168px; margin:0 auto; position:relative;}
+  #header .header_con#hcon_anima{-webkit-animation:background-color2 .2s linear,border-color .2s linear}
+  .nav_wrap{width:100%; height:auto; margin:-86px auto; padding:33px 0; overflow:hidden; z-index:10; position:relative;}
+  .nav_wrap>ul>li:nth-child(2)>.sub_menu{margin:0 auto; overflow:hidden; display:grid; grid-template-columns: auto auto auto;}
+  .nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(5),.nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(6){display:block;}
+  .nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(4){border-right:1px solid #e7e8ec;}
+  .nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(5){border-right:0;}
+  .nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(3),.nav_wrap>ul>li:nth-child(2)>.sub_menu li:nth-child(6){border-right:0; border-left:1px solid #e7e8ec;}
+
+}

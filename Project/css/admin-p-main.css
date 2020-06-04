@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@media (min-width:100px){
+  main{width:1020px; margin:0 auto; padding:0 0 0 0; float:none;}
+  .pj-row1{margin-top:24px; float:left;}
+  .pj-row2{margin-left:8px;}
+  .admin-New-con{margin-top:23px; margin-left:0; float:left;}
+  .chat-wrap{top:0; right:0; position:absolute; display:none;}
+  .memo-wrap{margin-left:0;}
+}
+
+@media (min-width:1360px){
+  main{width:1338px; margin:0; padding:0 0 0 20px; float:left;}
+  .pj-row1{margin-top:24px; float:left;}
+  .pj-row2{margin-left:8px;}
+  .admin-New-con{margin-top:23px; margin-left:8px; float:left;}
+  .chat-wrap{top:0; right:0; position:absolute; display:none;}
+  .memo-wrap{margin-left:15px;}
+}
+
+@media (min-width:1443px){
+  main{width:1020px; margin:0; padding:0 0 0 20px; float:left;}
+  .pj-row1{margin-top:24px; float:left;}
+  .pj-row2{margin-left:8px;}
+  .admin-New-con{margin-top:23px; margin-left:0; float:left;}
+  .chat-wrap{top:-60px; position:relative;}
+  .memo-wrap{margin-left:0;}
+}
+
+@media (min-width:1683px){
+  main{width:1342px; padding:0 0 0 20px; float:left;}
+  .pj-row1{margin-top:24px; float:left;}
+  .admin-New-con{margin-top:24px; margin-left:8px; float:left;}
+  .chat-wrap{top:0; right:0; position:absolute; display:none;}
+  .memo-wrap{margin-left:15px;}
+}
+@media (min-width:1760px){
+  main{width:76%; padding:0 0 0 20px; float:left;}
+  .pj-row1{margin-top:24px; float:left;}
+  .admin-New-con{margin-top:24px; margin-left:8px; float:left;}
+  .chat-wrap{top:0; right:0; position:absolute; display:none;}
+}
